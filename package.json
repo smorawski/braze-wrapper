@@ -1,0 +1,26 @@
+{
+  "name": "braze-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper for Braze SDK",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smorawski/braze-wrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smorawski/braze-wrapper/issues"
+  },
+  "homepage": "https://github.com/smorawski/braze-wrapper#readme",
+  "dependencies": {
+    "@braze/web-sdk": "3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
