@@ -38,9 +38,9 @@ const wrapper = {
     }
   },
 
-  changeUser: function () {
+  changeUser: function (userId) {
     try {
-      return appboy.changeUser();
+      return appboy.changeUser(userId);
     } catch (error) {
       throw new Error('Error in changeUser method! ' + error.message);
     }
